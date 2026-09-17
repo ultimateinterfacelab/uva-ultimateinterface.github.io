@@ -1,7 +1,7 @@
 // Content is rendered by Jekyll; JavaScript only handles email copying.
 document.querySelectorAll(".email-copy").forEach(button => {
       button.addEventListener("click", async () => {
-        const status = button.closest("header").querySelector(".email-copy-status");
+        const status = button.closest(".email-contact, header").querySelector(".email-copy-status");
         clearTimeout(button.copyStatusTimer);
         try {
           await navigator.clipboard.writeText(button.dataset.email);

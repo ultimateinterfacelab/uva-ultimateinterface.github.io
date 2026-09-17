@@ -630,6 +630,11 @@ main.inner-page {
 .inner-page .person-name .email-copy:hover { background: #f1f5f8; }
 .email-copy-status { display: block; font-size: 12px; font-weight: 400; color: #657481; overflow-wrap: anywhere; }
 .email-copy-status:empty { display: none; }
+.email-contact { display: inline; }
+.email-contact .email-copy { width: auto; min-height: 24px; height: auto; gap: 5px; padding: 0 4px; margin: 0; border: 0; background: transparent; box-shadow: none; color: #657481; font-size: 13px; line-height: 1.4; vertical-align: baseline; align-items: center; cursor: pointer; }
+.email-contact .email-copy:hover { background: #f1f5f8; }
+.email-contact .email-copy-status { display: inline; margin-left: 5px; }
+.email-contact .email-copy-status:empty { display: none; }
 .alumni-sections { display: grid; gap: 32px; }
 .inner-page .alumni-section { margin: 0; }
 .inner-page .alumni-section > h3 { padding-bottom: 12px; border-bottom: 1px solid #e4e9ed; margin-bottom: 20px; }

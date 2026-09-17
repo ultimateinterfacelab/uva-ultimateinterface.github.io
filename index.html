@@ -1,60 +1,163 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ultimate Interface Lab</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<html lang="en" data-theme="light"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light">
+<title>Ultimate Interface Lab | Home</title>
+<meta name="description" content="Ultimate Interface Lab explores future interfaces spanning sensing, haptics, XR, accessibility, collaboration, and AI-mediated interaction.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/styles.css?v=1789653130">
+</head><body data-page="home">
+<header><nav aria-label="Primary">
+<a class="brand-link" href="/index.html"><img src="/logo_only.png" alt="Ultimate Interface Lab logo"><span class="brand-copy">Ultimate Interface Lab<small>Future interfaces at UNIST</small></span></a>
+<div class="nav-links" id="navLinks"><a data-nav="home" href="/index.html" aria-current="page">Home</a><a data-nav="people" href="/people.html">People</a><a data-nav="publications" href="/publications.html">Publications</a><a data-nav="join" href="/join.html">Join Us</a></div>
+</nav></header>
+
+<main class="container home-page"><section class="home-overview" aria-labelledby="home-title">
+      <div class="home-introduction">
+        <div class="home-identity"><img src="/logo_only.png" alt=""><div><h1 id="home-title">Ultimate Interface Lab</h1><p class="home-affiliation">Computer Science and Engineering, <a href="https://www.unist.ac.kr/">UNIST</a></p></div></div>
+        <p class="home-vision">We pursue the vision of the <strong>Ultimate Interface</strong>: an intelligent, physical, and adaptive user interface that takes the form and interaction mode best suited to the task, the user’s situation, and their abilities.
+We work toward this vision by designing new interaction paradigms, developing interaction technologies, and building interactive systems spanning both software and hardware across diverse contexts.</p>
+
+        <p class="home-opening"><strong>Join us.</strong> We are recruiting an Innocore postdoctoral researcher in Human-AI interaction. <a href="/join.html">See details</a></p>
+      </div>
+      <aside class="home-news" aria-labelledby="news-title">
+        <h2 id="news-title">News</h2>
+        <div id="newsList">
+
+<ul class="plain-news">
+
+
+<li><time datetime="2026-09-01">Sep 2026</time><p>🎉 Our paper on multimodal e-skin and haptic interfaces has been accepted for publication in Nature Electronics!</p></li>
+
+
+
+<li><time datetime="2026-08-01">Aug 2026</time><p>🎉 Two projects have been accepted as posters at UIST 2026!</p></li>
+
+
+
+<li><time datetime="2026-07-01">Jul 2026</time><p>🎓 Adil Rahman successfully defended his PhD dissertation!</p></li>
+
+
+
+<li><time datetime="2026-07-01">Jul 2026</time><p>🎓 Erzhen Hu successfully defended her PhD dissertation!</p></li>
+
+
+
+<li><time datetime="2026-06-01">Jun 2026</time><p>🎉 Our paper on the effects of physical surfaces on touch interactions has been accepted for publication in IJHCS!</p></li>
+
+
+
+<li><time datetime="2026-04-01">Apr 2026</time><p>🏆 Erzhen Hu received the UVA CS Excellence in Research Award!</p></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+        <a class="home-text-link" href="/news.html">All news &rarr;</a>
+      </aside>
+    </section>
+    <section class="home-recent" aria-labelledby="recent-title">
+      <div class="section-heading"><h2 id="recent-title">Selected Publications</h2><a class="home-text-link" href="/publications.html">All publications &rarr;</a></div>
+      <div id="recentPublications" class="recent-grid">
+
+<article class="recent-paper">
+<img src="/pub_images/RedirectedPinch_chi26.webp" alt="Redirected Pinch: Efficient and Comfortable Bare-Hand Interaction for 2D Windows in VR" loading="lazy">
+<p class="recent-venue">CHI 2026</p>
+<h3><a href="/publications.html">Redirected Pinch: Efficient and Comfortable Bare-Hand Interaction for 2D Windows in VR</a></h3>
+<p class="recent-authors">Wen Ying, Yeonsu Kim, Adil Rahman, Erzhen Hu, Geehyuk Lee, Seongkook Heo</p>
+</article>
+<article class="recent-paper">
+<img src="/pub_images/interreality_chi26.webp" alt="&quot;It Feels Like I am Invited to Communicate&quot;: Mediating Ad-Hoc Bystander-VR User Interruptions Through Proactive Proxies" loading="lazy">
+<p class="recent-venue">CHI 2026</p>
+<h3><a href="/publications.html">&quot;It Feels Like I am Invited to Communicate&quot;: Mediating Ad-Hoc Bystander-VR User Interruptions Through Proactive Proxies</a></h3>
+<p class="recent-authors">Adil Rahman, Wen Ying, Md Aashikur Rahman Azim, Michelle Annett, Seongkook Heo</p>
+</article>
+<article class="recent-paper">
+<img src="/pub_images/dialoglab_uist25.png" alt="DialogLab: Authoring, Simulating, and Testing Dynamic Human-AI Group Conversations" loading="lazy">
+<p class="recent-venue">UIST 2025</p>
+<h3><a href="/publications.html">DialogLab: Authoring, Simulating, and Testing Dynamic Human-AI Group Conversations</a></h3>
+<p class="recent-authors">Erzhen Hu, Yanhe Chen, Mingyi Li, Vrushank Phadnis, Pingmei Xu, Xun Qian, Alex Olwal, David Kim, Seongkook Heo, Ruofei Du</p>
+</article>
+<article class="recent-paper">
+<img src="/pub_images/thing2reality_uist25.png" alt="Thing2Reality: Enabling Spontaneous Creation of 3D Objects from 2D Content using Generative AI in XR Meetings" loading="lazy">
+<p class="recent-venue">UIST 2025</p>
+<h3><a href="/publications.html">Thing2Reality: Enabling Spontaneous Creation of 3D Objects from 2D Content using Generative AI in XR Meetings</a></h3>
+<p class="recent-authors">Erzhen Hu, Mingyi Li, Jungtaek Hong, Xun Qian, Alex Olwal, David Kim, Seongkook Heo, Ruofei Du</p>
+</article>
+<article class="recent-paper">
+<img src="/pub_images/customsight_uist25.png" alt="CustomSight: Enhancing LLM-Powered Visual Assistance for Blind Individuals using Goal-Directed Dynamic Filters" loading="lazy">
+<p class="recent-venue">UIST 2025 Poster</p>
+<h3><a href="/publications.html">CustomSight: Enhancing LLM-Powered Visual Assistance for Blind Individuals using Goal-Directed Dynamic Filters</a></h3>
+<p class="recent-authors">Adil Rahman, Rifat Rahman Khan, Jonggi Hong, Stephanie Valencia, Seongkook Heo</p>
+</article>
+<article class="recent-paper">
+<img src="/pub_images/fingerrover_chi23.jpg" alt="Take my hand: Automated hand-based spatial guidance for the visually impaired" loading="lazy">
+<p class="recent-venue">CHI 2023</p>
+<h3><a href="/publications.html">Take my hand: Automated hand-based spatial guidance for the visually impaired</a></h3>
+<p class="recent-authors">Adil Rahman, Md Aashikur Rahman Azim, Seongkook Heo</p>
+</article>
+</div>
+    </section>
     
-    <style>  
-        .mt-page {
-            margin-top: 4rem!important;
-        }
-        .img-max {
-            max-width: 800px;
-            width:100%;
-}
+</main>
+<footer class="container"><small>&copy; <span id="footerYear">2026</span> Ultimate Interface Lab</small></footer>
 
-    </style>
-</head>
-<body>
-    <header class="fixed-top bg-white d-flex flex-wrap justify-content-center py-2 border-bottom">
-        <ul class="nav">                        
-            <li class="nav-item"><a href="/" class="nav-link text-dark">Home</a></li>
-            <li class="nav-item"><a href="people.html" class="nav-link text-dark">People</a></li>
-            <li class="nav-item"><a href="research.html" class="nav-link text-dark">Publications</a></li>
-        </ul>            
-    </header>      
-    <!-- <div class="b-example-divider"></div> -->
-    
-    <div class="px-4 py-5 my-5 text-center">            
-        <h1 class="display-5 fw-bold">Ultimate Interface Lab</h1>
-        <p class="text-muted">Department of Computer Science and Engineering, <a href="https://www.unist.ac.kr/" class="text-decoration-none text-muted">UNIST</a></p>
-        <div class="container">
-            <img class="img-fluid img-max" src="images/ultimuva2.jpg">
-        </div>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4 my-4">
-                We pursue the vision of the <strong>Ultimate Interface</strong>: an intelligent, physical, and adaptive user interface that takes the form and interaction mode best suited to the task, the user's situation, and their abilities.
-            </br>
-                We work toward this vision by designing new interaction paradigms, developing interaction technologies, and building interactive systems spanning both software and hardware across diverse contexts. 
-            </p>                              
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <p class=" mb-4 my-4">                       
-                    
-                    <strong>We are looking for a postdoctoral researcher </strong> interested in building the future of Human-AI interaction. The position is funded through the INNOCORE program, which offers a competitive salary and benefits, with an expected start in fall 2026.
-                    </br> 
-                    To apply, please send your CV and a brief description of your research interests to <a href="https://seongkookheo.com" class="text-decoration-none">Seongkook</a>. Applicants should have at least one first-author publication at CHI or UIST.
-                </p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- <div class="container text-center" style="max-width: 300px">
-        <img src="images/eng_rgb.png" class="img-fluid">
-    </div> -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
-</body>
-</html>
+</body></html>
